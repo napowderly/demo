@@ -1,2 +1,25 @@
+# Link requirements
+# Reuse work
+# Version with Git
+# Painless release process
+
+from "generics/regulators.ato" import AdjustableRegulator
+from "LMR16030_regulator.ato" import LMR16030Buck_3V3_3A
+
 module Demo:
-    signal gnd
+    """
+    Power supply module demo
+    """
+    # Top level requirements
+    input_voltage = 20V to 36V
+    output_voltage = 3.3V +/- 10%
+    output_current = 0A to 3A
+
+    # import PSU topology
+    power_supply = new AdjustableRegulator
+    power_supply.power_in.voltage = input_voltage
+    power_supply.power_out.voltage = output_voltage
+    power_supply.output_current = output_current
+
+    # Select the regulator
+    power_supply -> LMR16030Buck_3V3_3A
