@@ -21,5 +21,7 @@ module Demo:
     power_supply.power_out.voltage = output_voltage
     power_supply.output_current = output_current
 
-    # Select the regulator
+    # Select the regulator topology
     power_supply -> LMR16030Buck_3V3_3A
+
+    # Configure the regulator

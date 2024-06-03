@@ -1,0 +1,135 @@
+poses:
+  schematic:
+    1952e926:
+      mirror_x: false
+      mirror_y: true
+      position:
+        x: 283.3013153764117
+        y: -132.3270239478799
+      rotation: 90
+    1a6cee52:
+      mirror_x: false
+      mirror_y: false
+      position:
+        x: 77.80265977245645
+        y: 216.21896348017665
+      rotation: 0
+    57b2936f:
+      mirror_x: false
+      mirror_y: false
+      position:
+        x: 93.95465647559234
+        y: 9.859253307734235
+      rotation: 0
+    6f96b8db:
+      mirror_x: false
+      mirror_y: true
+      position:
+        x: 297.5686274809568
+        y: 76.04139440212626
+      rotation: 0
+    788a3bd8:
+      mirror_x: false
+      mirror_y: false
+      position:
+        x: 259.0
+        y: 108.0
+      rotation: 0
+    '92753889':
+      mirror_x: false
+      mirror_y: false
+      position:
+        x: 94.184009900382
+        y: -21.29007458707299
+      rotation: 0
+    a956b75e:
+      mirror_x: false
+      mirror_y: false
+      position:
+        x: 449.0633729935196
+        y: 241.2162229757451
+      rotation: 0
+    bd8e71ee:
+      mirror_x: false
+      mirror_y: false
+      position:
+        x: 635.5708066164784
+        y: 92.76089338441197
+      rotation: 0
+    c39d129f:
+      mirror_x: false
+      mirror_y: false
+      position:
+        x: 79.47766113619377
+        y: 82.63666281195506
+      rotation: 0
+    d0658c48:
+      mirror_x: false
+      mirror_y: true
+      position:
+        x: 302.79752974513974
+        y: -19.61737785419362
+      rotation: 180
+    elec/src/demo.ato:Demo::power_supply.c_boot:
+      mirror_x: false
+      mirror_y: false
+      position:
+        x: 359.456956609424
+        y: -93.1550422762451
+      rotation: 270
+    elec/src/demo.ato:Demo::power_supply.c_in_hf:
+      mirror_x: false
+      mirror_y: false
+      position:
+        x: -133.6572345702647
+        y: 16.200876917607843
+      rotation: 90
+    elec/src/demo.ato:Demo::power_supply.c_out:
+      mirror_x: false
+      mirror_y: false
+      position:
+        x: 494.092048601422
+        y: 52.7194989822857
+      rotation: 90
+    elec/src/demo.ato:Demo::power_supply.c_ss:
+      mirror_x: false
+      mirror_y: false
+      position:
+        x: 343.2897608148837
+        y: 132.41176488574087
+      rotation: 90
+    elec/src/demo.ato:Demo::power_supply.diode:
+      mirror_x: false
+      mirror_y: false
+      position:
+        x: 383.74891119663783
+        y: 56.39760356244517
+      rotation: 270
+    elec/src/demo.ato:Demo::power_supply.feedback_div.r_bottom:
+      mirror_x: false
+      mirror_y: false
+      position:
+        x: 544.3594778636013
+        y: 132.41176488574087
+      rotation: 90
+    elec/src/demo.ato:Demo::power_supply.feedback_div.r_top:
+      mirror_x: false
+      mirror_y: false
+      position:
+        x: 543.4961880416345
+        y: 19.03431374047839
+      rotation: 90
+    elec/src/demo.ato:Demo::power_supply.inductor:
+      mirror_x: false
+      mirror_y: false
+      position:
+        x: 435.29738626041194
+        y: -31.10348600531562
+      rotation: 0
+    elec/src/demo.ato:Demo::power_supply.r_switching_frequency:
+      mirror_x: false
+      mirror_y: false
+      position:
+        x: 29.298458453448987
+        y: 132.23704469697103
+      rotation: 90
