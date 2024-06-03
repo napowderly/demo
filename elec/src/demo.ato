@@ -26,7 +26,7 @@ module Demo:
     power_supply -> LMR16030
 
     vdiv = new VDiv
-    vdiv.v_in = 12V +/- 1%
+    vdiv.v_in = 24V +/- 1%
     vdiv.v_out = 4.85V to 5.4V
-    vdiv.i_q = 100uA to 200uA
+    vdiv.i_q = 10uA to 20uA
 
