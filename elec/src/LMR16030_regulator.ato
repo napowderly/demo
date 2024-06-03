@@ -180,7 +180,7 @@ from "power_parts.ato" import TSS310LA, SQH6045S_8R2M_LF, ECG2CM8R2E12OTBO, NM12
 # Select specific components once you've found their specs
 ###################################################
 
-module LMR16030Buck_3V3_3A from LMR16030Buck:
+module LMR16030 from LMR16030Buck:
     """
     This is a demo of all the things you should configure when
     using the LMR16030Buck module.
