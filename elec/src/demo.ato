@@ -4,7 +4,8 @@
 # Painless release process
 
 from "generics/regulators.ato" import AdjustableRegulator
-from "LMR16030_regulator.ato" import LMR16030Buck_3V3_3A
+from "LMR16030_regulator.ato" import LMR16030
+from "generics/vdivs.ato" import VDiv
 
 module Demo:
     """
@@ -22,6 +23,10 @@ module Demo:
     power_supply.output_current = output_current
 
     # Select the regulator topology
-    power_supply -> LMR16030Buck_3V3_3A
+    power_supply -> LMR16030
 
-    # Configure the regulator
+    vdiv = new VDiv
+    vdiv.v_in = 12V +/- 1%
+    vdiv.v_out = 4.85V to 5.4V
+    vdiv.i_q = 100uA to 200uA
+
