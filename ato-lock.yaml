@@ -4,9 +4,9 @@ poses:
       mirror_x: false
       mirror_y: true
       position:
-        x: 283.3013153764117
+        x: 259.6897608740986
         y: -132.3270239478799
-      rotation: 90
+      rotation: 0
     1a6cee52:
       mirror_x: false
       mirror_y: false
@@ -25,15 +25,15 @@ poses:
       mirror_x: false
       mirror_y: true
       position:
-        x: 297.5686274809568
-        y: 76.04139440212626
+        x: 273.95707297864374
+        y: 28.818285397500063
       rotation: 0
     788a3bd8:
       mirror_x: false
       mirror_y: false
       position:
-        x: 259.0
-        y: 108.0
+        x: 92.95745543534657
+        y: 41.735314783830965
       rotation: 0
     '92753889':
       mirror_x: false
@@ -67,9 +67,9 @@ poses:
       mirror_x: false
       mirror_y: true
       position:
-        x: 302.79752974513974
+        x: 270.04601866128604
         y: -19.61737785419362
-      rotation: 180
+      rotation: 0
     elec/src/demo.ato:Demo::power_supply.c_boot:
       mirror_x: false
       mirror_y: false
